@@ -1,6 +1,6 @@
 <script lang="ts">
-
+  import Router from 'svelte-spa-router';
+  import routes from './router/index';
 </script>
 
-
-<h1>我是主页</h1>
+<Router {routes}/>
